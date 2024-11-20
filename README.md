@@ -27,6 +27,8 @@ This project demonstrates how to build an AI-powered summary generation applicat
 ``` 
 how it look like you can improve the ui / ux or you can use react for this 
 ```
+![Example Screenshot](image.png)
+
 ## Installation & Setup
 
 1. Clone the repository to your local machine:
