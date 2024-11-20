@@ -1,0 +1,146 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212; /* Dark background color */
+    color: #E0E0E0; /* Light text for dark theme */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container for the chatbox */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 3rem;
+    color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #cfcfcf;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+textarea {
+    width: 100%;
+    background-color: #333;
+    border: 1px solid #0f4198;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #5e8a8b;
+    background-color: #282828;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #5e8a8b;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4c7573;
+}
+
+/* Summary Box */
+.summary-box {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.summary-box h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.summary-box p {
+    color: #cfcfcf;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    textarea {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    textarea {
+        font-size: 0.9rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+    }
+}
